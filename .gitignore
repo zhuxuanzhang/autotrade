@@ -1,0 +1,37 @@
+# Local market data, ledgers, and backtest archives (keep on this computer).
+/data/
+/数据/
+
+# Local experiments and generated backtest reports, including backups.
+/experiments/
+/reports/
+
+# Local Python runtime and virtual environments.
+/.python/
+/python-embed.zip
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime logs and process files.
+*.log
+*.pid
+
+# Local credentials and machine-specific configuration.
+.env
+.env.*
+!.env.example
+/.codex/
+/.aws/
+
+# Editor and OS files.
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
